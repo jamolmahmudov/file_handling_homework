@@ -7,4 +7,8 @@ def main(data:str):
         int: return answer
     """
 
+    return len(data)
+data=open("txt_file/data02.txt")
+r=(data).read()
+print(main(data=r))
 # Read data from file
