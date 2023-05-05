@@ -6,13 +6,13 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    a=0
+   
     list=[]
     for i in data:
         if i.isdigit():
             list.append(i)
-            a+=int(i)
-    return a
+            
+    return list
 data=open("txt_file/data03.txt")
 r=data.read()
 print(main(data=r))
